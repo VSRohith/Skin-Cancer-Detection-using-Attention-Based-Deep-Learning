@@ -1,0 +1,24 @@
+=========================================
+SKIN CANCER AI: TERMINAL COMMAND LOG
+=========================================
+
+1. ENVIRONMENT SETUP:
+   (base) conda activate base
+
+2. INSTALL DEPENDENCIES:
+   pip install torch torchvision torchaudio opencv-python matplotlib pandas scikit-learn
+
+3. MODEL TRAINING (The Brain):
+   python train_final.py
+   - Current Benchmark: Loss 0.33 
+   - Hardware: NVIDIA RTX 3050 (CUDA)
+
+4. VISUAL TESTING (The XAI Heatmap):
+   python test_visual.py
+   - Purpose: Generates the Grad-CAM heatmap to explain the AI's decision.
+
+5. OUTPUT FILES:
+   - skin_attention_model.pth (Trained Weights)
+   - heatmap_result.png (Visual Proof for Staff)
+
+  streamlit run app.py

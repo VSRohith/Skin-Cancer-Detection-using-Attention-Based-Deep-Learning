@@ -1,0 +1,24 @@
+```gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Large model checkpoints (optional)
+# skin_attention_model.pth
+```
