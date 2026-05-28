@@ -59,7 +59,7 @@ Skin_Cancer_Attention_Project/
 ### 1. Clone Repository
 
 ```bash
-git clone YOUR_GITHUB_REPO_LINK
+git clone https://github.com/VSRohith/Skin-Cancer-Detection-using-Attention-Based-Deep-Learning.git
 cd Skin_Cancer_Attention_Project
 ```
 
