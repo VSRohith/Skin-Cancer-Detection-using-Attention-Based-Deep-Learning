@@ -502,7 +502,7 @@ model, device = load_clinical_model()
 #  AUTH SCREEN
 # ─────────────────────────────────────────────
 if not st.session_state.authenticated:
-    st.markdown("<div class='auth-wrap'>", unsafe_allow_html=True)
+    st.markdown("<div class='auth-head'>Skin Cancer Detection</div>", unsafe_allow_html=True)
     st.markdown("<div class='auth-logo'>🔬</div>", unsafe_allow_html=True)
     st.markdown("<div class='auth-title'>DermAI Pro</div>", unsafe_allow_html=True)
     st.markdown("<div class='auth-sub'>CLINICAL ACCESS PORTAL · v3.2</div>", unsafe_allow_html=True)
