@@ -12,6 +12,18 @@ The application also includes Grad-CAM heatmap visualization to improve model in
 
 ---
 
+## Live Demo
+
+Streamlit Deployment:
+https://dermai-pro.streamlit.app
+
+### Demo Access
+
+> The application is currently running in demo mode for testing purposes.
+
+- Username: `doctor1`
+- Password: `password123`
+
 ## Features
 
 - Skin lesion image classification
